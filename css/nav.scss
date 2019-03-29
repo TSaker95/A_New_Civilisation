@@ -1,0 +1,95 @@
+@import 'mixins';
+nav { 
+    @include full-width-centered();
+    background-color:rgb(58, 1, 1);
+    height: 35px;
+    border-width: 5px;
+      border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+    background-image: url("black.png");
+  
+  
+    background-repeat: repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+   }
+  
+  body
+  {
+    margin: 0;
+    padding: 0;
+    
+    /* make it look decent enough */
+    background: #232323;
+    color: #f10e0e;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+  }
+  
+  a
+  {
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover
+  {
+    color: rgb(255, 0, 0);
+  }
+  
+  
+  .topnav {
+      background-color: rgb(253, 1, 1);
+      overflow: center;
+      border-width: 5px;
+      border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+    }
+    
+  
+    .topnav a {
+      float: left;
+      color: #fc0000;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      border-width: 1px;
+      transition: 1.5s;
+      
+    border-color: black;
+    border-style: solid
+    }
+    
+   
+    .nav:hover {
+      background-color: rgb(255, 0, 0);
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+    }
+    
+    .nav1:hover {
+      background-color: rgb(7, 50, 243);
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+    }
+    
+    .nav2:hover {
+      background-color: rgb(54, 243, 7);
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+    }
+    .nav3:hover {
+      background-color: rgb(243, 219, 7);
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+    }
+   
+    .topnav a.active {
+      background-color: rgb(255, 0, 0);
+      color: rgb(255, 0, 157);
+    }
+  

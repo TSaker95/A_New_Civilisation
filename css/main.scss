@@ -1,0 +1,71 @@
+@import 'mixins';
+
+
+main {
+    @include full-width-centered();
+    height: auto;
+    background-color: rgba(70, 66, 66, 0.904);
+    vertical-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-width: 5px;
+border-color: black;
+border-style: solid;
+}
+
+
+.main1 {
+  @include full-width-centered();
+  height: auto;
+  background-color: rgb(180, 1, 1);
+  vertical-align: center;
+  border-width: 5px;
+border-color: black;
+border-style: solid;
+}
+
+.main3 {
+@include full-width-centered();
+height: 600px;
+background-color: rgb(255, 255, 255);
+vertical-align: center;
+border-width: 5px;
+border-color: black;
+border-style: solid;
+background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+}
+
+.main4 {
+@include full-width-centered();
+height: auto;
+background-color: rgb(255, 255, 255);
+vertical-align: center;
+border-width: 5px;
+border-color: black;
+border-style: solid;
+background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+background-image: url("black.png");
+background-repeat: repeat;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover;
+
+}
+
+.main5 {
+@include full-width-centered();
+height: auto;
+background-color: rgb(0, 0, 0);
+vertical-align: center;
+border-width: 5px;
+border-color: black;
+padding-top: 20px;
+padding-bottom: 20px;
+border-style: solid;
+background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+background-image: url("black.png");
+background-repeat: repeat;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover;
+}

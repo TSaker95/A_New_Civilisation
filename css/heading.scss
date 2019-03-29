@@ -1,0 +1,63 @@
+@import 'mixins';
+
+.header1 {
+    @include full-width-centered();
+    background-color: rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: center;
+    outline: 100px bold green;
+    color: rgba(2, 0, 0, 0);
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+transition: 1s;
+border-style: solid;
+background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+background-image: url("grey2.png");
+
+&:hover{
+text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+transform: scale(1.1);
+color: rgb(255, 7, 7);
+}
+
+}
+
+
+.header2 {
+@include full-width-centered();
+background-color: rgb(0, 0, 0);
+font-size: 100px;
+text-align: center;
+outline: 100px bold green;
+color: rgb(57, 255, 7);
+border-width: 5px;
+border-color: rgb(0, 0, 0);
+
+
+border-style: solid;
+text-shadow: 0px 0px 10px rgb(8, 253, 0), 0px 0px 10px rgb(8, 253, 0), 0px 0px 10px rgb(8, 253, 0) ;
+transition: 1s;
+border-style: solid;
+background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+background-image: url("grey2.png");
+
+&:hover{
+text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+transform: scale(1.1);
+color: rgb(8, 0, 0);
+}
+
+}
+
+#heading-2 {
+  background-color: rgb(255, 0, 0);
+  font-size: 30px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-variant-caps: all-petite-caps;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+ }

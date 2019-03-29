@@ -1,0 +1,298 @@
+#img1 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #fd0000;
+          box-shadow: 10px 10px 100px #fd0000;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img1:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+          box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img2 {
+  padding: 1px;
+  width: 100%;
+  border-radius: 10% 10% 10% 10%;
+  -webkit-box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.952);
+          box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.952);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img2:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 0.9;
+  -webkit-box-shadow: 10px 10px 100px #3cff00, 10px 10px 100px #3cff00, 10px 10px 100px #3cff00;
+          box-shadow: 10px 10px 100px #3cff00, 10px 10px 100px #3cff00, 10px 10px 100px #3cff00;
+  overflow: hidden;
+}
+
+#img3 {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  -webkit-box-shadow: 10px 10px 100px red;
+          box-shadow: 10px 10px 100px red;
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img3:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  opacity: 0.9;
+  -webkit-box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+          box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+  overflow: hidden;
+}
+
+#img7greencover {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  -webkit-box-shadow: 10px 10px 100px #08fd00;
+          box-shadow: 10px 10px 100px #08fd00;
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img7greencover:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  opacity: 0.9;
+  -webkit-box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+          box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+  overflow: hidden;
+}
+
+#img4 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #fd0000;
+          box-shadow: 10px 10px 100px #fd0000;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img4:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px #d300fd, 10px 10px 100px #d300fd, 10px 10px 100px #d300fd;
+          box-shadow: 10px 10px 100px #d300fd, 10px 10px 100px #d300fd, 10px 10px 100px #d300fd;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img4green {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #08fd00;
+          box-shadow: 10px 10px 100px #08fd00;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img4green:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px #d300fd, 10px 10px 100px #d300fd, 10px 10px 100px #d300fd;
+          box-shadow: 10px 10px 100px #d300fd, 10px 10px 100px #d300fd, 10px 10px 100px #d300fd;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img5 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #fd0000;
+          box-shadow: 10px 10px 100px #fd0000;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img5:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px #fde400, 10px 10px 100px #fde400, 10px 10px 100px #fde400;
+          box-shadow: 10px 10px 100px #fde400, 10px 10px 100px #fde400, 10px 10px 100px #fde400;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img5green {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #08fd00;
+          box-shadow: 10px 10px 100px #08fd00;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img5green:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px #fde400, 10px 10px 100px #fde400, 10px 10px 100px #fde400;
+          box-shadow: 10px 10px 100px #fde400, 10px 10px 100px #fde400, 10px 10px 100px #fde400;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img6 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #fd0000;
+          box-shadow: 10px 10px 100px #fd0000;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img6:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px #0026fd, 10px 10px 100px #0026fd, 10px 10px 100px #0026fd;
+          box-shadow: 10px 10px 100px #0026fd, 10px 10px 100px #0026fd, 10px 10px 100px #0026fd;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img6green {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #08fd00;
+          box-shadow: 10px 10px 100px #08fd00;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img6green:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px #0026fd, 10px 10px 100px #0026fd, 10px 10px 100px #0026fd;
+          box-shadow: 10px 10px 100px #0026fd, 10px 10px 100px #0026fd, 10px 10px 100px #0026fd;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img7 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #fd0000;
+          box-shadow: 10px 10px 100px #fd0000;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img7:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px #08fd00, 10px 10px 100px #08fd00, 10px 10px 100px #08fd00;
+          box-shadow: 10px 10px 100px #08fd00, 10px 10px 100px #08fd00, 10px 10px 100px #08fd00;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#img7green {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  -webkit-box-shadow: 10px 10px 100px #08fd00;
+          box-shadow: 10px 10px 100px #08fd00;
+  opacity: 0.9;
+  -webkit-transition: 1s;
+  transition: 1s;
+  overflow: hidden;
+}
+
+#img7green:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  opacity: 1;
+  -webkit-box-shadow: 10px 10px 100px #08fd00, 10px 10px 100px #08fd00, 10px 10px 100px #08fd00;
+          box-shadow: 10px 10px 100px #08fd00, 10px 10px 100px #08fd00, 10px 10px 100px #08fd00;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=red.css.map */

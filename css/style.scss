@@ -1,0 +1,180 @@
+@import "mixins";
+@import "menu";
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-content: center;
+}
+
+// heading stuff
+@import "heading";
+
+table,
+th,
+td {
+  border: 2px solid black;
+  font-size: 40px;
+  padding: 2px;
+}
+
+table#t01 tr:nth-child(even) {
+  background-color: rgb(95, 6, 6);
+}
+table#t01 tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.863);
+}
+table#t01 th {
+  color: white;
+  background-color: black;
+}
+
+// Hamburger stuff
+@import "hamb";
+
+// NAV STUFF
+@import "nav";
+
+#page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+//  P stuff, like text and
+@import "p";
+
+// .image-with-caption {
+//   position: relative;
+// }
+
+// Main stuff: Boxs that contain content and images and stuff
+@import "main";
+
+// IMAGES ---------------------------------------------
+@import "images";
+// IMAGES ---------------------------------------------
+
+// Section stuff
+@import "section";
+
+#footer {
+  font-size: 1vw;
+  font-style: bold;
+  color: rgba(245, 245, 220, 0.068);
+  background-color: rgb(58, 1, 1);
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  background-image: url(black.png);
+}
+
+
+#hover1 {
+  transform: scale(1);
+  opacity: 1;
+  box-shadow: 10px 10px 100px rgb(51, 255, 0), 10px 10px 100px rgb(21, 255, 0), 10px 10px 100px rgb(43, 255, 0);
+  // animation: rotation 3s infinite linear;
+  overflow: hidden;
+}
+
+
+
+/* Mobile Styles (screen widths less than or equal to 400px) */
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: rgba(255, 255, 255, 0.39);
+  }
+  header {
+    font-size: 150%;
+  }
+  #menuToggle {
+    left: -44%;
+    top: 11%;
+  }
+  .sign-up {
+    order: 1;
+  }
+  #footer {
+    font-size: 5vw;
+  }
+
+  #img3 {
+    width: auto;
+    margin: 0%;
+  }
+}
+// works without Sass
+
+/* Tablet style */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: rgba(255, 255, 255, 0.39);
+  }
+  section {
+    width: 50%;
+  }
+
+  .sign-up {
+    order: 1;
+  }
+  #menuToggle {
+    left: -47%;
+    top: 11%;
+  }
+  #footer {
+    font-size: 5vw;
+  }
+  //  .sign-up {
+  //   order:;
+  #img3 {
+    width: auto;
+    margin: 5%;
+  }
+}
+
+/* desktop*/
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: rgba(255, 255, 255, 0.39);
+  }
+  header {
+    height: 120px;
+  }
+
+  #menuToggle {
+    left: -48.5%;
+    top: 11%;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 25%;
+    order: 0;
+  }
+  .sign-up {
+    order: 0;
+  }
+  .main1 {
+    order: 0;
+    width: 50%;
+  }
+  .main2 {
+    order: 0;
+    width: 50%;
+  }
+  .main4 {
+    order: 0;
+    width: 100%;
+    height: auto;
+  }
+}

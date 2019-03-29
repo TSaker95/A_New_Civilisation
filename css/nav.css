@@ -1,0 +1,95 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3a0101;
+  height: 35px;
+  border-width: 5px;
+  border-bottom: 0px;
+  border-color: black;
+  border-style: solid;
+  background-image: url("black.png");
+  background-repeat: repeat;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* make it look decent enough */
+  background: #232323;
+  color: #f10e0e;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: red;
+}
+
+.topnav {
+  background-color: #fd0101;
+  overflow: center;
+  border-width: 5px;
+  border-bottom: 0px;
+  border-color: black;
+  border-style: solid;
+}
+
+.topnav a {
+  float: left;
+  color: #fc0000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-width: 1px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  border-color: black;
+  border-style: solid;
+}
+
+.nav:hover {
+  background-color: red;
+  color: white;
+  text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+}
+
+.nav1:hover {
+  background-color: #0732f3;
+  color: white;
+  text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+}
+
+.nav2:hover {
+  background-color: #36f307;
+  color: white;
+  text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+}
+
+.nav3:hover {
+  background-color: #f3db07;
+  color: white;
+  text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: #ff009d;
+}
+/*# sourceMappingURL=nav.css.map */

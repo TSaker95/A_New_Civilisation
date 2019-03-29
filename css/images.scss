@@ -1,0 +1,243 @@
+// RED IMAGE
+#img1 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(253, 0, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+// NOT SURE
+#img2 {
+  padding: 1px;
+  width: 100%;
+  border-radius: 10% 10% 10% 10%;
+  box-shadow: 10px 10px 100px rgba(255, 255, 255, 0.952);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  transition: 1s;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(60, 255, 0), 10px 10px 100px rgb(60, 255, 0), 10px 10px 100px rgb(60, 255, 0);
+    overflow: hidden;
+  }
+}
+// MAIN IMAGE HOME SCREEN
+#img3 {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(255, 0, 0);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0);
+    overflow: hidden;
+  }
+}
+// Image of the Movement for Green Page
+#img7greencover {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(8, 253, 0);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0);
+    overflow: hidden;
+  }
+}
+
+// PURPLE IMAGE
+#img4 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(253, 0, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(211, 0, 253), 10px 10px 100px rgb(211, 0, 253), 10px 10px 100px rgb(211, 0, 253);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+#img4green {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(8, 253, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(211, 0, 253), 10px 10px 100px rgb(211, 0, 253), 10px 10px 100px rgb(211, 0, 253);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+// Yellow
+#img5 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(253, 0, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+  align-self: auto;
+  
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+#img5green {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(8, 253, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+
+// BLUE IMAGE
+#img6 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(253, 0, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(0, 38, 253), 10px 10px 100px rgb(0, 38, 253), 10px 10px 100px rgb(0, 38, 253);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+#img6green {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(8, 253, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(0, 38, 253), 10px 10px 100px rgb(0, 38, 253), 10px 10px 100px rgb(0, 38, 253);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+// Green IMAGE
+#img7 {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(253, 0, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(8, 253, 0), 10px 10px 100px rgb(8, 253, 0), 10px 10px 100px rgb(8, 253, 0);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+#img7green {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(8, 253, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(8, 253, 0), 10px 10px 100px rgb(8, 253, 0), 10px 10px 100px rgb(8, 253, 0);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}

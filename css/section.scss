@@ -1,0 +1,97 @@
+@import "mixins";
+
+section {
+  @include full-width-centered;
+  height: 300px;
+     
+  &.sign-up {
+    background-color: rgb(0, 0, 0);
+    background-image: url(".png");
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+  }
+  &.feature-1 {
+    background-color: rgb(238, 12, 12);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    background-image: radial-gradient(circle at 50%, rgba(0, 0, 0, 0.973), rgb(58, 1, 1));
+    border-style: solid;
+    background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+    background-image: url("black.png");
+  
+
+  &:hover {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0);
+    // animation: rotation 3s infinite linear;
+    // overflow: hidden;
+  }
+  &.feature-1 a {
+    @include full-width-centered;
+      }
+  }
+}
+ // COLOUR RED?
+//  section {
+//   @include full-width-centered;
+//   height: 300px;
+  
+//  &.feature-2 {
+//   background-color: rgb(238, 12, 12);
+//   border-color: rgb(0, 0, 0);
+//   border-style: solid;
+//   border-width: 5px;
+//   // background-image: radial-gradient(circle at 50%, rgba(0, 0, 0, 0.973), rgb(58, 1, 1));
+//   border-style: solid;
+//   // background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+//   background-image: url("black.png");
+
+
+// &:hover {
+//   transform: scale(1);
+//   opacity: 1;
+//   box-shadow: 10px 10px 100px rgb(51, 255, 0), 10px 10px 100px rgb(21, 255, 0), 10px 10px 100px rgb(43, 255, 0);
+//   // animation: rotation 3s infinite linear;
+//   overflow: hidden;
+// }
+// &.feature-2 a {
+//   @include full-width-centered;
+  
+// }
+
+// }
+
+
+// }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+// &.feature-2 {
+
+//     background-color: rgb(255, 0, 0);
+//     border-color: black;
+//     border-style: solid;
+//     border-width: 5px;
+//     background-image: radial-gradient(circle at 50%, rgb(179, 255, 0), rgb(255, 0, 0));
+// }
+// &.feature-3 {
+//     background-color: rgb(5, 67, 236);
+//     border-color: black;
+//     border-style: solid;
+//     border-width: 5px;
+//     background-image: radial-gradient(circle at 50%, rgb(3, 0, 0), rgba(37, 37, 5, 0.5), rgba(255, 255, 255, 0.322));

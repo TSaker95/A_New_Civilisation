@@ -1,0 +1,95 @@
+.p {
+  font-size: 200%;
+  border: 2px solid #09ff00;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  text-shadow: 10px 10px 10px #0804ff;
+}
+
+p:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1000;
+  -webkit-box-shadow: 10px 10px 100px #3cff00, 10px 10px 100px #3cff00, 10px 10px 100px #3cff00;
+          box-shadow: 10px 10px 100px #3cff00, 10px 10px 100px #3cff00, 10px 10px 100px #3cff00;
+  overflow: hidden;
+}
+
+.p1 {
+  font-size: 200%;
+  border: 2px solid red;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  text-shadow: 10px 10px 10px #1d04ff;
+}
+
+.p1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1000;
+  -webkit-box-shadow: 10px 10px 100px #002fff, 10px 10px 100px #002fff, 10px 10px 100px #002fff;
+          box-shadow: 10px 10px 100px #002fff, 10px 10px 100px #002fff, 10px 10px 100px #002fff;
+  overflow: hidden;
+}
+
+.p2 {
+  font-size: 200%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  text-shadow: 10px 10px 10px #ff0404a1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-align: center;
+}
+
+.p2:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1000;
+  -webkit-box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+          box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+  overflow: hidden;
+}
+
+.p3 {
+  font-size: 200%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  width: auto;
+  color: #3cff00;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  text-shadow: 10px 10px 10px #3cff00;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-align: center;
+}
+
+.p3:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  opacity: 1000;
+  -webkit-box-shadow: 10px 10px 100px #3cff00, 10px 10px 100px #3cff00, 10px 10px 100px #3cff00;
+          box-shadow: 10px 10px 100px #3cff00, 10px 10px 100px #3cff00, 10px 10px 100px #3cff00;
+  overflow: hidden;
+}
+/*# sourceMappingURL=p.css.map */

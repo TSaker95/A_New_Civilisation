@@ -1,0 +1,73 @@
+.header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  font-size: 100px;
+  text-align: center;
+  outline: 100px bold green;
+  color: rgba(2, 0, 0, 0);
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
+  background-image: url("grey2.png");
+}
+
+.header1:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #ff0707;
+}
+
+.header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  font-size: 100px;
+  text-align: center;
+  outline: 100px bold green;
+  color: #39ff07;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  text-shadow: 0px 0px 10px #08fd00, 0px 0px 10px #08fd00, 0px 0px 10px #08fd00;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
+  background-image: url("grey2.png");
+}
+
+.header2:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #080000;
+}
+
+#heading-2 {
+  background-color: red;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  font-variant-caps: all-petite-caps;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+/*# sourceMappingURL=heading.css.map */
