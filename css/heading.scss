@@ -61,3 +61,30 @@ color: rgb(8, 0, 0);
   border-color: black;
   border-style: solid;
  }
+
+
+ .header3 {
+  @include full-width-centered();
+  background-color: rgb(0, 0, 0);
+  font-size: 100px;
+  text-align: center;
+  outline: 100px bold green;
+  color: rgba(0, 17, 255, 0.979);
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  
+  
+  border-style: solid;
+  text-shadow: 0px 0px 10px rgb(23, 7, 255), 0px 0px 10px rgb(23, 7, 255), 0px 0px 10px rgb(23, 7, 255) ;
+  transition: 1s;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+  background-image: url("grey2.png");
+  
+  &:hover{
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  transform: scale(1.1);
+  color: rgb(4, 0, 255);
+  }
+  
+  }

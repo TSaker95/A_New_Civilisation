@@ -33,6 +33,103 @@ section {
     @include full-width-centered;
       }
   }
+
+  &.feature-2 {
+    background-color: rgb(238, 12, 12);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    background-image: radial-gradient(circle at 50%, rgba(0, 0, 0, 0.973), rgb(58, 1, 1));
+    border-style: solid;
+    background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+    background-image: url("black.png");
+  
+
+  &:hover {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(21, 255, 0), 10px 10px 100px rgb(51, 255, 0), 10px 10px 100px rgb(51, 255, 0);
+    // animation: rotation 3s infinite linear;
+    // overflow: hidden;
+  }
+  &.feature-2 a {
+    @include full-width-centered;
+      }
+  }
+
+  &.feature-3 {
+    background-color: rgb(238, 12, 12);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    background-image: radial-gradient(circle at 50%, rgba(0, 0, 0, 0.973), rgb(58, 1, 1));
+    border-style: solid;
+    background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+    background-image: url("black.png");
+  
+
+  &:hover {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(0, 17, 255), 10px 10px 100px rgb(0, 4, 255), 10px 10px 100px rgb(0, 17, 255);
+    // animation: rotation 3s infinite linear;
+    // overflow: hidden;
+  }
+  &.feature-3 a {
+    @include full-width-centered;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
  // COLOUR RED?
 //  section {
