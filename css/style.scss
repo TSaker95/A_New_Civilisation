@@ -34,7 +34,7 @@ table#t01 tr:nth-child(odd) {
   background-color: rgba(0, 0, 0, 0.863);
 }
 table#t01 th {
-  color: white;
+  color: rgb(0, 0, 0);
   background-color: black;
 }
 
@@ -110,10 +110,14 @@ table#t01 th {
 
 @media only screen and (max-width: 400px) {
   body {
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color: rgb(8, 1, 1);
   }
   header {
-    font-size: 150%;
+    font-size: 5vw;
+  }
+
+  #header1 {
+        font-size: 100%;
   }
   #menuToggle {
     left: -44%;
@@ -130,13 +134,34 @@ table#t01 th {
     width: auto;
     margin: 0%;
   }
+  #img6bluecover {
+    width: 500%;
+    margin: 0%;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    width: 50%;
+    height: 50%;
+    order: 0;
+  }
+  .main4 {
+    order: 0;
+    width: 100%;
+    height: auto;
+  }
+// #img5blue {
+//  width: 25%; 
+// }
+
+
 }
 // works without Sass
 
 /* Tablet style */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color: rgb(8, 0, 0);
   }
   section {
     width: 50%;
@@ -158,15 +183,28 @@ table#t01 th {
     width: auto;
     margin: 5%;
   }
+  .header1 {
+    font-size: 380%;
+}
+.p2, .p3, .p4, .p41, .p5 {
+  font-size: 125%;
+}
+.img1, .img2, .img3, .img4 {
+  width: 500%;
+}
+#img6bluecover {
+  width: 500%;
+}
 }
 
 /* desktop*/
 @media only screen and (min-width: 961px) {
   body {
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color: rgb(0, 0, 0);
   }
   header {
     height: 120px;
+    font-size: 200%;
   }
 
   #menuToggle {
@@ -175,7 +213,8 @@ table#t01 th {
   }
   .feature-1,
   .feature-2,
-  .feature-3 {
+  .feature-3,
+  .feature-4 {
     width: 25%;
     order: 0;
   }
@@ -195,4 +234,13 @@ table#t01 th {
     width: 100%;
     height: auto;
   }
+  .header1, .header2, .header3, .header4 {
+    font-size: 600%;
+}
+.p2, .p3, .p4, .p41, .p5, .p51 {
+  font-size: 150%;
+}
+.img1, .img2, .img3, .img4 {
+  width: 100%;
+}
 }
