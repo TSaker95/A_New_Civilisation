@@ -65,6 +65,7 @@
   margin-bottom: 3%;
   -webkit-transition: 1s;
   transition: 1s;
+  height: auto;
 }
 
 #img3:hover {

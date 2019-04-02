@@ -117,4 +117,30 @@ color: rgb(8, 0, 0);
     
     }
 
-  
+      .header5 {
+        @include full-width-centered();
+        background-color: rgb(0, 0, 0);
+        font-size: 10vw;
+        text-align: center;
+        outline: 100px bold green;
+        color: rgba(255, 251, 0, 0.979);
+        border-width: 5px;
+        border-color: rgb(0, 0, 0);
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        
+        border-style: solid;
+        text-shadow: 0px 0px 10px rgb(255, 251, 0, 0.979), 0px 0px 10px rgb(255, 251, 0, 0.979), 0px 0px 10px rgb(255, 251, 0, 0.979) ;
+        transition: 1s;
+        border-style: solid;
+        background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+        background-image: url("grey2.png");
+        
+        &:hover{
+        text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+        transform: scale(1.1);
+        color: rgb(255, 251, 0, 0.979);
+        }
+        
+        }

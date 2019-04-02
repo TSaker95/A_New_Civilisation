@@ -148,7 +148,11 @@ table#t01 th {
   .main4 {
     order: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+  }
+  .img5, .img4, .img6, .img7 {
+    max-width:100%;
+    max-height: 100%;
   }
 // #img5blue {
 //  width: 25%; 
@@ -232,9 +236,9 @@ table#t01 th {
   .main4 {
     order: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
-  .header1, .header2, .header3, .header4 {
+  .header1, .header2, .header3, .header4, .header5 {
     font-size: 600%;
 }
 .p2, .p3, .p4, .p41, .p5, .p51 {
