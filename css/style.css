@@ -1780,7 +1780,7 @@ section.feature-5.feature-5 a {
 }
 
 /* Mobile Styles (screen widths less than or equal to 400px) */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   body {
     background-color: #080101;
   }
