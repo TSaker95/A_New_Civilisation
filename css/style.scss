@@ -136,13 +136,14 @@ table#t01 th {
   }
   #img6bluecover {
     width: 500%;
+    height: 500%;
     margin: 0%;
   }
   .feature-1,
   .feature-2,
   .feature-3 {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
     order: 0;
   }
   .main4 {
@@ -190,7 +191,7 @@ table#t01 th {
   .header1 {
     font-size: 380%;
 }
-.p2, .p3, .p4, .p41, .p5 {
+.p2, .p3, .p4, .p41, .p5, .p6, .p61 {
   font-size: 125%;
 }
 .img1, .img2, .img3, .img4 {
@@ -218,7 +219,8 @@ table#t01 th {
   .feature-1,
   .feature-2,
   .feature-3,
-  .feature-4 {
+  .feature-4,
+  .feature-5 {
     width: 25%;
     order: 0;
   }
@@ -241,7 +243,7 @@ table#t01 th {
   .header1, .header2, .header3, .header4, .header5 {
     font-size: 600%;
 }
-.p2, .p3, .p4, .p41, .p5, .p51 {
+.p2, .p3, .p4, .p41, .p5, .p51, .p6, .p61 {
   font-size: 150%;
 }
 .img1, .img2, .img3, .img4 {

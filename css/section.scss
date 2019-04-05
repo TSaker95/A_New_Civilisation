@@ -103,6 +103,28 @@ section {
       }
   }
 
+  &.feature-5 {
+    background-color: rgb(253, 228, 0);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 5px;
+    background-image: radial-gradient(circle at 50%, rgba(0, 0, 0, 0.973), rgb(58, 1, 1));
+    border-style: solid;
+    background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+    background-image: url("black.png");
+  
+
+  &:hover {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0);
+    // animation: rotation 3s infinite linear;
+    // overflow: hidden;
+  }
+  &.feature-5 a {
+    @include full-width-centered;
+      }
+  }
 
 
 
