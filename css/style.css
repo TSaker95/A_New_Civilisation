@@ -1816,9 +1816,9 @@ section.feature-5.feature-5 a {
   .feature-3 {
     width: auto;
     height: auto;
-    -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   .main4 {
     -webkit-box-ordinal-group: 1;
