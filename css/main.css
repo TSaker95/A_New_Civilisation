@@ -98,4 +98,30 @@ main {
   /* Do not repeat the image */
   background-size: cover;
 }
+
+.main6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+  background-color: black;
+  vertical-align: center;
+  border-width: 5px;
+  border-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
+  background-image: url("black.png");
+  background-repeat: repeat;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+}
 /*# sourceMappingURL=main.css.map */
