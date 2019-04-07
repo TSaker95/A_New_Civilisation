@@ -213,3 +213,44 @@
       text-align: left;
       font-size: 5vw;
     }
+
+    .p7 {
+      font-size: 200%;
+      border: 2px solid rgb(48, 48, 48);
+      width: auto;
+      color: rgb(212, 0, 255);
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 2%;
+      margin-right: 2%;
+      padding: 10px 10px 10px 10px;
+      background-color: rgb(0, 0, 0);
+      text-shadow: 10px 10px 10px rgb(212, 0, 255);
+      transition: 1s;
+      text-align: center;
+      font-size: 5vw;
+    
+      &:hover {
+        transform: scale(1.01);
+        opacity: 1000;
+        box-shadow: 10px 10px 100px rgb(212, 0, 255), 10px 10px 100px rgb(212, 0, 255), 10px 10px 100px rgb(212, 0, 255);
+        overflow: hidden;
+      }
+    }
+
+    .p71 {
+      font-size: 200%;
+      border: 2px solid rgb(48, 48, 48);
+      width: auto;
+      color: rgb(212, 0, 255);
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 2%;
+      margin-right: 2%;
+      padding: 10px 10px 10px 10px;
+      background-color: rgb(0, 0, 0);
+      text-shadow: 10px 10px 10px rgb(212, 0, 255);
+      transition: 1s;
+      text-align: left;
+      font-size: 5vw;
+    }

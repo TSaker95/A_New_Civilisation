@@ -10,7 +10,7 @@
   font-size: 400%;
   text-align: center;
   outline: 100px bold green;
-  color: rgba(2, 0, 0, 0);
+  color: red;
   border-width: 5px;
   border-color: black;
   border-style: solid;
@@ -167,5 +167,38 @@
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #fffb00;
+}
+
+.header6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  font-size: 10vw;
+  text-align: center;
+  outline: 100px bold green;
+  color: #d400ff;
+  border-width: 5px;
+  border-color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  text-shadow: 0px 0px 10px #d400ff, 0px 0px 10px #d400ff, 0px 0px 10px #d400ff;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
+  background-image: url("grey2.png");
+}
+
+.header6:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #d400ff;
 }
 /*# sourceMappingURL=heading.css.map */

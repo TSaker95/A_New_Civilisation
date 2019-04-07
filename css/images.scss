@@ -151,6 +151,28 @@
   }
 }
 
+#img6purplecover {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(212, 0, 255);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+  height: auto;
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(212, 0, 255), 10px 10px 100px rgb(212, 0, 255), 10px 10px 100px rgb(212, 0, 255);
+    overflow: hidden;
+  }
+}
+
 
 
 // PURPLE IMAGE
@@ -253,6 +275,25 @@
   }
 }
 
+#img4purple {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(211, 0, 253);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+  height: auto;
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(211, 0, 253), 10px 10px 100px rgb(211, 0, 253), 10px 10px 100px rgb(211, 0, 253);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
 
 // Yellow
 #img5 {
@@ -357,6 +398,28 @@
     transition: 1s;
   }
 }
+
+
+#img5purple {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(211, 0, 253);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+  height: auto;
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+
 // BLUE IMAGE
 #img6 {
   margin: 10% 20% 10% 20%;
@@ -457,6 +520,26 @@
   }
 }
 
+#img6purple {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(211, 0, 253);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+  height: auto;
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(0, 38, 253), 10px 10px 100px rgb(0, 38, 253), 10px 10px 100px rgb(0, 38, 253);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+
 // Green IMAGE
 #img7 {
   margin: 10% 20% 10% 20%;
@@ -543,6 +626,26 @@
   width: 100%;
   border-radius: 25% 25%;
   box-shadow: 10px 10px 100px rgb(255, 251, 0);
+  opacity: 0.9;
+  transition: 1s;
+  overflow: hidden;
+  height: auto;
+  &:hover {
+    transform: scale(0.9);
+    opacity: 1;
+    box-shadow: 10px 10px 100px rgb(8, 253, 0), 10px 10px 100px rgb(8, 253, 0), 10px 10px 100px rgb(8, 253, 0);
+    // animation: rotation 3s infinite linear;
+    overflow: hidden;
+    transition: 1s;
+  }
+}
+
+#img7purple{
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 25% 25%;
+  box-shadow: 10px 10px 100px rgb(211, 0, 253);
   opacity: 0.9;
   transition: 1s;
   overflow: hidden;
