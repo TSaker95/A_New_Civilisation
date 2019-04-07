@@ -102,8 +102,8 @@
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
   opacity: 0.9;
-  -webkit-box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
-          box-shadow: 10px 10px 100px red, 10px 10px 100px red, 10px 10px 100px red;
+  -webkit-box-shadow: 10px 10px 100px #08fd00, 10px 10px 100px #08fd00, 10px 10px 100px #08fd00;
+          box-shadow: 10px 10px 100px #08fd00, 10px 10px 100px #08fd00, 10px 10px 100px #08fd00;
   overflow: hidden;
 }
 
