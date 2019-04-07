@@ -2064,7 +2064,7 @@ section.feature-6.feature-6 a {
   #footer {
     font-size: 5vw;
   }
-  #img6bluecover, #img3, #img5, #img4, #img6, #img7 {
+  #img6bluecover, #img3 {
     width: 500%;
     height: 500%;
     margin: 0%;
@@ -2089,8 +2089,8 @@ section.feature-6.feature-6 a {
     height: 100%;
   }
   #img5, #img4, #img6, #img7 {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 50%;
+    max-height: 50%;
     margin: 0%;
     position: relative;
   }
