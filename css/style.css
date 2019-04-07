@@ -2064,7 +2064,7 @@ section.feature-6.feature-6 a {
   #footer {
     font-size: 5vw;
   }
-  #img6bluecover, #img3 {
+  #img6bluecover, #img3, #img6yellowcover, #img7green, #img6whitecover, #img6purplecover {
     width: 500%;
     height: 500%;
     margin: 0%;
@@ -2088,7 +2088,7 @@ section.feature-6.feature-6 a {
     width: 100%;
     height: 100%;
   }
-  #img5, #img4, #img6, #img7 {
+  #img5, #img4, #img6, #img7, #img5yellow, #img4yellow, #img6yellow, #img7yellow, #img5green, #img4green, #img6green, #img7green, #img5blue, #img4blue, #img6blue, #img7blue, #img5purple, #img4purple, #img6purple, #img7purple, #img5white, #img4white, #img6white, #img7white {
     max-width: 50%;
     max-height: 50%;
     margin: 0%;
