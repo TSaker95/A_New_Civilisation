@@ -659,3 +659,138 @@
     transition: 1s;
   }
 }
+
+// MAIN IMAGE HOME SCREEN
+#imgred1 {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(255, 0, 0);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+  height: auto;
+  width: auto;
+
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0), 10px 10px 100px rgb(255, 0, 0);
+    overflow: hidden;
+  }
+}
+// Image of the Movement for Green Page
+#imggreen1 {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(8, 253, 0);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+  height: auto;
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(8, 253, 0), 10px 10px 100px rgb(8, 253, 0), 10px 10px 100px rgb(8, 253, 0);
+    overflow: hidden;
+  }
+}
+// The Science Union Cover blue page
+#imgblue1 {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(0, 17, 253);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+  height: auto;
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(0, 17, 253), 10px 10px 100px rgb(0, 17, 253), 10px 10px 100px rgb(0, 17, 253);
+    overflow: hidden;
+  }
+}
+
+#imgwhite1 {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(255, 255, 255);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+  height: auto;
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(255, 255, 255), 10px 10px 100px rgb(255, 255, 255), 10px 10px 100px rgb(255, 255, 255);
+    overflow: hidden;
+  }
+}
+
+#imgyellow1 {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(253, 228, 0);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+  height: auto;
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0), 10px 10px 100px rgb(253, 228, 0);
+    overflow: hidden;
+  }
+}
+
+#imgpurple1 {
+  padding: 1px;
+  width: 60%;
+  border-radius: 5% 5% 5% 5%;
+  box-shadow: 10px 10px 100px rgb(212, 0, 255);
+  overflow: hidden;
+  border-width: auto;
+  border-color: black;
+  border-style: solid;
+  align-self: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  transition: 1s;
+  height: auto;
+  &:hover {
+    transform: scale(0.95);
+    opacity: 0.9;
+    box-shadow: 10px 10px 100px rgb(212, 0, 255), 10px 10px 100px rgb(212, 0, 255), 10px 10px 100px rgb(212, 0, 255);
+    overflow: hidden;
+  }
+}
