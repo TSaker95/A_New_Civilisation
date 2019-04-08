@@ -650,7 +650,7 @@ a:hover {
   text-shadow: 10px 10px 10px #ff0404a1;
   -webkit-transition: 1s;
   transition: 1s;
-  text-align: center;
+  text-align: left;
   font-size: 5vw;
   color: #ff5100;
 }
@@ -709,6 +709,24 @@ a:hover {
   overflow: hidden;
 }
 
+.p31 {
+  font-size: 200%;
+  border: 2px solid #303030;
+  width: auto;
+  color: #3cff00;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  text-shadow: 10px 10px 10px #3cff00;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-align: left;
+  font-size: 5vw;
+}
+
 .p4 {
   font-size: 200%;
   border: 2px solid #303030;
@@ -740,7 +758,7 @@ a:hover {
   font-size: 200%;
   border: 2px solid #303030;
   width: auto;
-  color: #0044ff;
+  color: #00deee;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 10px;
@@ -2261,7 +2279,7 @@ section.feature-6.feature-6 a {
   #img6bluecover,
   #img3,
   #img6yellowcover,
-  #img7green,
+  #img7greencover,
   #img6whitecover,
   #img6purplecover {
     width: 500%;
@@ -2355,6 +2373,7 @@ section.feature-6.feature-6 a {
   .p2,
   .p21,
   .p3,
+  .p31,
   .p4,
   .p41,
   .p5,
@@ -2367,7 +2386,7 @@ section.feature-6.feature-6 a {
   #img6bluecover,
   #img3,
   #img6yellowcover,
-  #img7green,
+  #img7greencover,
   #img6whitecover,
   #img6purplecover {
     width: 100%;
@@ -2492,6 +2511,7 @@ section.feature-6.feature-6 a {
   .p2,
   .p21,
   .p3,
+  .p31,
   .p4,
   .p41,
   .p5,
@@ -2501,6 +2521,7 @@ section.feature-6.feature-6 a {
   .p7,
   .p71 {
     font-size: 150%;
+    margin: 1%;
   }
   .img1,
   .img2,
