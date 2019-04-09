@@ -6,10 +6,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: black;
+  font-style: red;
+  background-color: #f80000;
   font-size: 400%;
   text-align: center;
-  outline: 100px bold green;
+  outline: 100px bold maroon;
   color: red;
   border-width: 5px;
   border-color: black;
@@ -26,6 +27,10 @@
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #ff0707;
+}
+
+#a1 {
+  color: rgba(255, 0, 0, 0.582);
 }
 
 .header2 {

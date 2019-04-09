@@ -39,6 +39,24 @@
   color: #ff5100;
 }
 
+.p211 {
+  font-size: 200%;
+  border: 2px solid #303030;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
+  text-shadow: 10px 10px 10px #ff0404a1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-align: center;
+  font-size: 5vw;
+  color: #ff5100;
+}
+
 .p2 {
   font-size: 200%;
   border: 2px solid #303030;
