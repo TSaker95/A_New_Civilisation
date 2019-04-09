@@ -176,14 +176,26 @@
 }
 
 .header1:hover {
-  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #ff0707;
 }
 
 #a1 {
-  color: rgba(255, 0, 0, 0.582);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#a1:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #ff0707;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .header2 {
@@ -211,10 +223,26 @@
 }
 
 .header2:hover {
-  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #080000;
+}
+
+#a2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#a2:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #39ff07;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 #heading-2 {
@@ -255,10 +283,26 @@
 }
 
 .header3:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #0400ff;
+}
+
+#a3 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#a3:hover {
   text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #0400ff;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .header4 {
@@ -288,10 +332,26 @@
 }
 
 .header4:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
+}
+
+#a4 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#a4:hover {
   text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .header5 {
@@ -321,10 +381,26 @@
 }
 
 .header5:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #fffb00;
+}
+
+#a5 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#a5:hover {
   text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #fffb00;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .header6 {
@@ -354,10 +430,26 @@
 }
 
 .header6:hover {
+  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #d400ff;
+}
+
+#a6 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#a6:hover {
   text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #d400ff;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 table,
@@ -1126,6 +1218,7 @@ main {
   transition: 1s;
   height: auto;
   width: auto;
+  opacity: 0.8;
 }
 
 #img3:hover {

@@ -1,57 +1,77 @@
-@import 'mixins';
+@import "mixins";
 
 .header1 {
-    @include full-width-centered();
+  @include full-width-centered();
   font-style: red;
-    background-color: rgb(248, 0, 0);
-    font-size: 400%;
-    text-align: center;
-    outline: 100px bold rgb(128, 0, 0);
-    color: rgb(255, 0, 0);
-    border-width: 5px;
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
-text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
-transition: 1s;
-border-style: solid;
-// background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
-background-image: url("grey2.png");
+  background-color: rgb(248, 0, 0);
+  font-size: 400%;
+  text-align: center;
+  outline: 100px bold rgb(128, 0, 0);
+  color: rgb(255, 0, 0);
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  text-shadow: 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404, 0px 0px 10px #ff0404;
+  transition: 1s;
+  border-style: solid;
+  // background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+  background-image: url("grey2.png");
 
-&:hover{
-text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
-transform: scale(1.1);
-color: rgb(255, 7, 7);
+  &:hover {
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000,
+      0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(255, 7, 7);
+  }
 }
-
-}
-#a1{
-color: rgba(255, 0, 0, 0.582);
+#a1 {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  transition: 1s;
+  &:hover {
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000,
+      0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(255, 7, 7);
+    transition: 1s;
+  }
 }
 
 .header2 {
-@include full-width-centered();
-background-color: rgb(0, 0, 0);
-font-size: 10vw;
-text-align: center;
-outline: 100px bold green;
-color: rgb(57, 255, 7);
-border-width: 5px;
-border-color: rgb(0, 0, 0);
-
-
-border-style: solid;
-text-shadow: 0px 0px 10px rgb(8, 253, 0), 0px 0px 10px rgb(8, 253, 0), 0px 0px 10px rgb(8, 253, 0) ;
-transition: 1s;
-border-style: solid;
-background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
-background-image: url("grey2.png");
-
-&:hover{
-text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
-transform: scale(1.1);
-color: rgb(8, 0, 0);
+  @include full-width-centered();
+  background-color: rgb(0, 0, 0);
+  font-size: 10vw;
+  text-align: center;
+  outline: 100px bold green;
+  color: rgb(57, 255, 7);
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  text-shadow: 0px 0px 10px rgb(8, 253, 0), 0px 0px 10px rgb(8, 253, 0), 0px 0px 10px rgb(8, 253, 0);
+  transition: 1s;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+  background-image: url("grey2.png");
+  &:hover {
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000,
+      0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(8, 0, 0);
+  }
 }
 
+#a2 {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  transition: 1s;
+  &:hover {
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000,
+      0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(57, 255, 7);
+    transition: 1s;
+
+  }
 }
 
 #heading-2 {
@@ -63,10 +83,9 @@ color: rgb(8, 0, 0);
   border-width: 5px;
   border-color: black;
   border-style: solid;
- }
+}
 
-
- .header3 {
+.header3 {
   @include full-width-centered();
   background-color: rgb(0, 0, 0);
   font-size: 10vw;
@@ -77,102 +96,140 @@ color: rgb(8, 0, 0);
   border-color: rgb(0, 0, 0);
   margin-left: 5%;
   margin-right: 5%;
-
-  
   border-style: solid;
-  text-shadow: 0px 0px 10px rgb(0, 222, 238), 0px 0px 10px rgb(0, 222, 238), 0px 0px 10px rgb(0, 222, 238) ;
+  text-shadow: 0px 0px 10px rgb(0, 222, 238), 0px 0px 10px rgb(0, 222, 238), 0px 0px 10px rgb(0, 222, 238);
   transition: 1s;
   border-style: solid;
   background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
   background-image: url("grey2.png");
-  
-  &:hover{
-  text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
-  transform: scale(1.1);
-  color: rgb(4, 0, 255);
+
+  &:hover {
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000,
+      0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(4, 0, 255);
   }
-  
+}
+#a3 {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  transition: 1s;
+  &:hover{
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(4, 0, 255);
+    transition: 1s;
+    }
   }
 
-  .header4 {
-    @include full-width-centered();
-    background-color: rgb(0, 0, 0);
-    font-size: 10vw;
-    text-align: center;
-    outline: 100px bold green;
-    color: rgba(255, 255, 255, 0.979);
-    border-width: 5px;
-    border-color: rgb(0, 0, 0);
-    margin-left: 5%;
-    margin-right: 5%;
-    border-style: solid;
-    text-shadow: 0px 0px 10px rgb(255, 255, 255), 0px 0px 10px rgb(255, 255, 255), 0px 0px 10px rgb(255, 255, 255) ;
-    transition: 1s;
-    border-style: solid;
-    background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
-    background-image: url("grey2.png");
-    
-    &:hover{
+
+.header4 {
+  @include full-width-centered();
+  background-color: rgb(0, 0, 0);
+  font-size: 10vw;
+  text-align: center;
+  outline: 100px bold green;
+  color: rgba(255, 255, 255, 0.979);
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255), 0px 0px 10px rgb(255, 255, 255), 0px 0px 10px rgb(255, 255, 255);
+  transition: 1s;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+  background-image: url("grey2.png");
+
+  &:hover {
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000,
+      0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+  }
+}
+#a4 {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  transition: 1s;
+  &:hover{
     text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
     transform: scale(1.1);
     color: rgb(255, 255, 255);
+    transition: 1s;
     }
-    
+  }
+.header5 {
+  @include full-width-centered();
+  background-color: rgb(0, 0, 0);
+  font-size: 10vw;
+  text-align: center;
+  outline: 100px bold green;
+  color: rgb(255, 251, 0);
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  margin-left: 5%;
+  margin-right: 5%;
+
+  border-style: solid;
+  text-shadow: 0px 0px 10px rgb(255, 251, 0), 0px 0px 10px rgb(255, 251, 0), 0px 0px 10px rgb(255, 251, 0);
+  transition: 1s;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+  background-image: url("grey2.png");
+
+  &:hover {
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000,
+      0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(255, 251, 0);
+  }
+}
+#a5 {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  transition: 1s;
+  &:hover{
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(255, 251, 0);
+    transition: 1s;
     }
+  }
+.header6 {
+  @include full-width-centered();
+  background-color: rgb(0, 0, 0);
+  font-size: 10vw;
+  text-align: center;
+  outline: 100px bold green;
+  color: rgb(212, 0, 255);
+  border-width: 5px;
+  border-color: rgb(0, 0, 0);
+  margin-left: 5%;
+  margin-right: 5%;
 
-      .header5 {
-        @include full-width-centered();
-        background-color: rgb(0, 0, 0);
-        font-size: 10vw;
-        text-align: center;
-        outline: 100px bold green;
-        color: rgb(255, 251, 0);
-        border-width: 5px;
-        border-color: rgb(0, 0, 0);
-        margin-left: 5%;
-        margin-right: 5%;
-        
-        
-        border-style: solid;
-        text-shadow: 0px 0px 10px rgb(255, 251, 0), 0px 0px 10px rgb(255, 251, 0), 0px 0px 10px rgb(255, 251, 0);
-        transition: 1s;
-        border-style: solid;
-        background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
-        background-image: url("grey2.png");
-        
-        &:hover{
-        text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
-        transform: scale(1.1);
-        color: rgb(255, 251, 0);
-        }
-        
-        }
+  border-style: solid;
+  text-shadow: 0px 0px 10px rgb(212, 0, 255), 0px 0px 10px rgb(212, 0, 255), 0px 0px 10px rgb(212, 0, 255);
+  transition: 1s;
+  border-style: solid;
+  background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
+  background-image: url("grey2.png");
 
-        
-      .header6 {
-        @include full-width-centered();
-        background-color: rgb(0, 0, 0);
-        font-size: 10vw;
-        text-align: center;
-        outline: 100px bold green;
-        color: rgb(212, 0, 255);
-        border-width: 5px;
-        border-color: rgb(0, 0, 0);
-        margin-left: 5%;
-        margin-right: 5%;
-        
-        
-        border-style: solid;
-        text-shadow: 0px 0px 10px rgb(212, 0, 255), 0px 0px 10px rgb(212, 0, 255), 0px 0px 10px rgb(212, 0, 255);
-        transition: 1s;
-        border-style: solid;
-        background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), rgb(0, 0, 0));
-        background-image: url("grey2.png");
-        
-        &:hover{
-        text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
-        transform: scale(1.1);
-        color: rgb(212, 0, 255);
-        }
-        
-        }
+  &:hover {
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000,
+      0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(212, 0, 255);
+  }
+}
+#a6 {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  transition: 1s;
+  &:hover{
+    text-shadow: 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000, 0px 0px 50px #000000;
+    transform: scale(1.1);
+    color: rgb(212, 0, 255);
+    transition: 1s;
+    }
+  }
