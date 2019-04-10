@@ -173,6 +173,8 @@
   transition: 1s;
   border-style: solid;
   background-image: url("grey2.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 .header1:hover {
@@ -220,6 +222,8 @@
   border-style: solid;
   background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
   background-image: url("grey2.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 .header2:hover {
@@ -280,6 +284,8 @@
   border-style: solid;
   background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
   background-image: url("grey2.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 .header3:hover {
@@ -329,6 +335,8 @@
   border-style: solid;
   background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
   background-image: url("grey2.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 .header4:hover {
@@ -378,6 +386,8 @@
   border-style: solid;
   background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
   background-image: url("grey2.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 .header5:hover {
@@ -427,6 +437,8 @@
   border-style: solid;
   background-image: radial-gradient(circle at 50%, rgba(0, 162, 255, 0.959), black);
   background-image: url("grey2.png");
+  background-position: center;
+  background-size: 100%;
 }
 
 .header6:hover {
@@ -2369,6 +2381,10 @@ section.feature-6.feature-6 a {
   overflow: hidden;
 }
 
+.crosshair {
+  cursor: crosshair;
+}
+
 /* Mobile Styles (screen widths less than or equal to 400px) */
 @media only screen and (max-width: 700px) {
   body {
@@ -2573,6 +2589,8 @@ section.feature-6.feature-6 a {
 @media only screen and (min-width: 961px) {
   body {
     background-color: black;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
   }
   header {
     height: 120px;
@@ -2624,6 +2642,8 @@ section.feature-6.feature-6 a {
   .header5,
   .header6 {
     font-size: 600%;
+    font-weight: bold;
+    margin-left: 4%;
   }
   .p2,
   .p21,
