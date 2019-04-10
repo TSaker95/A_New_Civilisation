@@ -2719,4 +2719,9 @@ section.feature-6.feature-6 a {
     position: relative;
   }
 }
+
+.link1 {
+  border: 0px;
+  color: pink;
+}
 /*# sourceMappingURL=style.css.map */
